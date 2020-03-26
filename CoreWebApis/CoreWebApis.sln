@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi.2.2", "CoreWebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi.3.1", "CoreWebApi.3.1\CoreWebApi.3.1.csproj", "{8E40D469-2545-4AC7-8C6F-EA8560AF5647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2.1.InDocker", "Core2.1.InDocker\Core2.1.InDocker.csproj", "{97314E02-1797-486D-B5AE-7BC5B4F95C38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_2_1_InDocker", "Core_2_1_InDocker\Core_2_1_InDocker.csproj", "{93BD662F-7794-4933-B4C4-4A184357D1CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{8E40D469-2545-4AC7-8C6F-EA8560AF5647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E40D469-2545-4AC7-8C6F-EA8560AF5647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E40D469-2545-4AC7-8C6F-EA8560AF5647}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97314E02-1797-486D-B5AE-7BC5B4F95C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97314E02-1797-486D-B5AE-7BC5B4F95C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97314E02-1797-486D-B5AE-7BC5B4F95C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97314E02-1797-486D-B5AE-7BC5B4F95C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
