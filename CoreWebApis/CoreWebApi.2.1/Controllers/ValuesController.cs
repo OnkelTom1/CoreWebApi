@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace CoreWebApi._2._1.Controllers
 {
     [Route("api/[controller]")]
@@ -14,7 +15,8 @@ namespace CoreWebApi._2._1.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Core 2.1", "value1", "value2" };
+            
+            return new string[] { "Core 2.1", "value1", "value2", CoreLibForAll.Lib.Main() };
         }
 
         // GET api/values/5

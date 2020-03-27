@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi.2.1", "CoreWebApi.2.1\CoreWebApi.2.1.csproj", "{0D2C8AF4-6148-4200-8E8C-4A24D51981FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebApi.2.1", "CoreWebApi.2.1\CoreWebApi.2.1.csproj", "{0D2C8AF4-6148-4200-8E8C-4A24D51981FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi.2.2", "CoreWebApi.2.2\CoreWebApi.2.2.csproj", "{CBDCC629-263D-4975-8F83-0E1058729BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebApi.2.2", "CoreWebApi.2.2\CoreWebApi.2.2.csproj", "{CBDCC629-263D-4975-8F83-0E1058729BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi.3.1", "CoreWebApi.3.1\CoreWebApi.3.1.csproj", "{8E40D469-2545-4AC7-8C6F-EA8560AF5647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebApi.3.1", "CoreWebApi.3.1\CoreWebApi.3.1.csproj", "{8E40D469-2545-4AC7-8C6F-EA8560AF5647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_2_1_InDocker", "Core_2_1_InDocker\Core_2_1_InDocker.csproj", "{93BD662F-7794-4933-B4C4-4A184357D1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_2_1_InDocker", "Core_2_1_InDocker\Core_2_1_InDocker.csproj", "{93BD662F-7794-4933-B4C4-4A184357D1CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibForAll", "CoreLibForAll\CoreLibForAll.csproj", "{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BD662F-7794-4933-B4C4-4A184357D1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

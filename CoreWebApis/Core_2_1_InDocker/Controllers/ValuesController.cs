@@ -14,7 +14,7 @@ namespace Core_2_1_InDocker.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Core 2.1 in Docker", "value1", "value2" };
+            return new string[] { "Core 2.1 in Docker", "value1", "value2", CoreLibForAll.Lib.Main() };
         }
 
         // GET api/values/5

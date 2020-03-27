@@ -13,8 +13,8 @@ namespace CoreWebApi._2._2.Controllers
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "Core 2.2", "value1", "value2" };
+        {            
+            return new string[] { "Core 2.2", "value1", "value2", CoreLibForAll.Lib.Main() };
         }
 
         // GET api/values/5
