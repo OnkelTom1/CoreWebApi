@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebApi.3.1", "CoreWebAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_2_1_InDocker", "Core_2_1_InDocker\Core_2_1_InDocker.csproj", "{93BD662F-7794-4933-B4C4-4A184357D1CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibForAll", "CoreLibForAll\CoreLibForAll.csproj", "{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibForAll", "CoreLibForAll\CoreLibForAll.csproj", "{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApiSSL2.1", "CoreWebApiSSL2.1\CoreWebApiSSL2.1.csproj", "{3A248418-C48A-443F-8382-04F3604EE44B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F86C9D14-9047-4DB3-BFF5-FFD2BA5EBFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A248418-C48A-443F-8382-04F3604EE44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A248418-C48A-443F-8382-04F3604EE44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A248418-C48A-443F-8382-04F3604EE44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A248418-C48A-443F-8382-04F3604EE44B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
